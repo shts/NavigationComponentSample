@@ -22,5 +22,9 @@
         android:id="@+id/nextFragment"
         android:name="jp.shts.android.navigationsample.NextFragment"
         android:label="fragment_next"
-        tools:layout="@layout/fragment_next" />
+        tools:layout="@layout/fragment_next" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
 </navigation>
